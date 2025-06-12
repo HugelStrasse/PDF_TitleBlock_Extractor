@@ -1,4 +1,4 @@
-# PDF Area Extractor
+# PDF TitleBlock Text Extractor
 
 A Python tool for interactively selecting areas on the first page of PDF files and extracting text from those areas across multiple PDFs. The extracted text is saved to a CSV file for easy analysis.
 
