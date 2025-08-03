@@ -3,6 +3,13 @@
 A Python tool for interactively selecting areas on the first page of PDF files and extracting text from those areas across multiple PDFs. The extracted text is saved to a CSV file for easy analysis.
 
 ## Features
+add 
+1. multiprocessor support for going through files quicker
+2. different colours for each box to differentiate and text description 
+3. loading of json files in gui
+4. deletion of boundaries with right click
+5. uses mupypdf for speed but perhaps less accurate, more testing to be done
+   
 - **Graphical Area Selection:** Use a Tkinter GUI to draw rectangles on the first page of a sample PDF and name each area.
 - **Bounding Box Saving:** Save and reuse bounding box definitions for future extractions.
 - **Batch Extraction:** Extracts text from the defined areas for all PDFs in a selected folder.
